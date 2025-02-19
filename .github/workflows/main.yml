@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git pull https://KaviSanvi:$HF_TOKEN@huggingface.co/spaces/KaviSanvi/Search_Engine_Agent_LLM main
+        run: git push https://KaviSanvi:$HF_TOKEN@huggingface.co/spaces/KaviSanvi/Search_Engine_Agent_LLM main
