@@ -12,6 +12,7 @@ load_dotenv()
 arxiv_wrapper=ArxivAPIWrapper(top_k_results=1,doc_content_chars_max=250)
 arxiv=ArxivQueryRun(arxiv_wrapper=arxiv_wrapper)
 
+## Wiki
 api_wrapper=WikipediaAPIWrapper(top_k_results=1,doc_content_chars_max=250)
 wiki=WikipediaQueryRun(api_wrapper=api_wrapper)
 
